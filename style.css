@@ -17,9 +17,10 @@ a{
 header{
     height:600px;
     width:100%;
-    background-image: url("header.jpg");
+    background-image: url("background.jpg");
     background-size:cover;
     text-align: center;
+    font-family:'Raleway', sans-serif;
 }
 .aboutus {
     text-align: center;
@@ -57,4 +58,49 @@ header{
     object-fit: cover;
     border-radius: 50%;
     margin-bottom: 50px;
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+}
+h2{
+    font-family: 'Raleway', sans-serif;
+}
+header p{
+    font-style: italic;
+}
+.options{
+    background-color: #fff;
+}
+
+/*Get Involved*/
+.getinvolved {
+    background-color: #5cb85c;
+    text-align: center;
+    /*adds padding on top and bottom*/
+    padding:50px 0 80px;
+    margin-top:50px;
+    width: 100%;
+}
+.getinvolved h2{
+    color: #fff;
+}
+.options{
+    padding: 30px;
+    margin:10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.getinvolved i{
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+}
+.contact .btn {
+    border-radius:0;
+    width: 100%;
+    font-size: 15px;
+    background-color: #f08080;
+    color: #fff;
 }
